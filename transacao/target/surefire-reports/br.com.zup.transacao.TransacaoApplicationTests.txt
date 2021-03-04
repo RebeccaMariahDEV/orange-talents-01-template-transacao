@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: br.com.zup.transacao.TransacaoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.573 s <<< FAILURE! - in br.com.zup.transacao.TransacaoApplicationTests
+contextLoads  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transacaoController' defined in file [C:\Users\rebecca.avelino\DevJava\ZupDesafios\tranzacao\target\classes\br\com\zup\transacao\controller\TransacaoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartaoRepository' defined in br.com.zup.transacao.repository.CartaoRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional br.com.zup.transacao.repository.CartaoRepository.findByCartao(java.lang.String)! No property cartao found for type Cartao!
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartaoRepository' defined in br.com.zup.transacao.repository.CartaoRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional br.com.zup.transacao.repository.CartaoRepository.findByCartao(java.lang.String)! No property cartao found for type Cartao!
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.Optional br.com.zup.transacao.repository.CartaoRepository.findByCartao(java.lang.String)! No property cartao found for type Cartao!
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property cartao found for type Cartao!
+

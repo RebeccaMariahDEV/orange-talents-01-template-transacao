@@ -1,0 +1,15 @@
+br\com\zup\transacao\transacao\TransacaoResposta.class
+br\com\zup\transacao\compras\EventoEstabelecimento.class
+br\com\zup\transacao\transacao\EventoTransacao.class
+br\com\zup\transacao\repository\EstabelecimentoRepository.class
+br\com\zup\transacao\transacao\Transacao.class
+br\com\zup\transacao\repository\TransacaoRepository.class
+br\com\zup\transacao\compras\Estabelecimento.class
+br\com\zup\transacao\cartao\EventoCartao.class
+br\com\zup\transacao\configuracoes\SecurityConfig.class
+br\com\zup\transacao\repository\CartaoRepository.class
+br\com\zup\transacao\cartao\Cartao.class
+br\com\zup\transacao\configuracoes\StringJsonMessageConfig.class
+br\com\zup\transacao\transacao\TransacaoConsumer.class
+br\com\zup\transacao\controller\TransacaoController.class
+br\com\zup\transacao\TransacaoApplication.class
